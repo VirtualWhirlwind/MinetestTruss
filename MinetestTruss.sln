@@ -3,8 +3,41 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{7FC1BE26-D499-4DBD-864C-626C5785E369}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Net", "Net", "{1ABFADF7-9FC0-41E8-9238-3EE0F9F3B81E}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "TrussLogicCore", "src\TrussLogicCore\TrussLogicCore.xproj", "{7F8EE92F-5899-47F9-AC3A-0068806234F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrussLogicNet", "src\TrussLogicNet\TrussLogicNet.csproj", "{FBCCCA2B-4002-479C-B303-DD79009F527C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrussUINet", "src\TrussUINet\TrussUINet.csproj", "{D2B97F75-216B-4767-BCE4-310AD3E90C60}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F8EE92F-5899-47F9-AC3A-0068806234F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F8EE92F-5899-47F9-AC3A-0068806234F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F8EE92F-5899-47F9-AC3A-0068806234F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F8EE92F-5899-47F9-AC3A-0068806234F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBCCCA2B-4002-479C-B303-DD79009F527C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBCCCA2B-4002-479C-B303-DD79009F527C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBCCCA2B-4002-479C-B303-DD79009F527C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBCCCA2B-4002-479C-B303-DD79009F527C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2B97F75-216B-4767-BCE4-310AD3E90C60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2B97F75-216B-4767-BCE4-310AD3E90C60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2B97F75-216B-4767-BCE4-310AD3E90C60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2B97F75-216B-4767-BCE4-310AD3E90C60}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7F8EE92F-5899-47F9-AC3A-0068806234F2} = {7FC1BE26-D499-4DBD-864C-626C5785E369}
+		{FBCCCA2B-4002-479C-B303-DD79009F527C} = {1ABFADF7-9FC0-41E8-9238-3EE0F9F3B81E}
+		{D2B97F75-216B-4767-BCE4-310AD3E90C60} = {1ABFADF7-9FC0-41E8-9238-3EE0F9F3B81E}
 	EndGlobalSection
 EndGlobal
