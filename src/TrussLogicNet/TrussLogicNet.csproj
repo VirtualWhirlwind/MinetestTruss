@@ -40,11 +40,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\TrussLogicCore\Class1.cs">
-      <Link>Class1.cs</Link>
-    </Compile>
     <Compile Include="..\TrussLogicCore\Support\AdvancedINI.cs">
       <Link>Support\AdvancedINI.cs</Link>
+    </Compile>
+    <Compile Include="..\TrussLogicCore\Support\AdvancedINIProcessor.cs">
+      <Link>Support\AdvancedINIProcessor.cs</Link>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
