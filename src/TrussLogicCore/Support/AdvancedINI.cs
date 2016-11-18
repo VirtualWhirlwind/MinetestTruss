@@ -14,8 +14,22 @@ namespace VirtualWhirlwind.Truss.Logic.Support
 
 	public class AdvancedINI : IAdvancedINI
     {
+        #region Fields
+        protected List<KeyValuePair<string, object>> _Values = new List<KeyValuePair<string, object>>();
+        #endregion
+
         #region Properties
-        public List<KeyValuePair<string, object>> Values { get; set; }
+        public List<KeyValuePair<string, object>> Values
+        {
+            get
+            {
+                return _Values;
+            }
+            set
+            {
+                _Values = value ?? new List<KeyValuePair<string, object>>();
+            }
+        }
 		#endregion
 
 		#region Methods
