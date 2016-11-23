@@ -7,13 +7,14 @@ namespace TestTrussLogicNet
     [TestClass]
     public class TestMinetestInstance
     {
+        [Ignore]
         [TestMethod]
         public void MinetestInstanceLaunch()
         {
             // Arrange
             MinetestInstance MI = new MinetestInstance()
             {
-                BasePath = @"C:\Users\cunninghamj\Apps\P\minetest-0.4.14"
+                BasePath = @"...\minetest-0.4.14"
             };
 
             // Act

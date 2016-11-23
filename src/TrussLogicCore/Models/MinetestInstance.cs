@@ -9,10 +9,30 @@ namespace VirtualWhirlwind.Truss.Logic.Models
 {
     public class MinetestInstance
     {
+        #region Fields
+        protected Guid _Id = Guid.Empty;
+        #endregion
+
+        #region Properties
+        public Guid Id
+        {
+            get
+            {
+                if (_Id == Guid.Empty) { _Id = Guid.NewGuid(); }
+                return _Id;
+            }
+            set
+            {
+                _Id = value;
+            }
+        }
+
         public string Name { get; set; }
 
         public string BasePath { get; set; }
+        #endregion
 
+        #region Methods
         public bool Launch()
         {
             bool Result = false;
@@ -45,5 +65,6 @@ namespace VirtualWhirlwind.Truss.Logic.Models
 
             return Result;
         }
+        #endregion
     }
 }
