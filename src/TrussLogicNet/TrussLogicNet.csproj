@@ -40,6 +40,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\TrussLogicCore\Models\MinetestInstance.cs">
+      <Link>Models\MinetestInstance.cs</Link>
+    </Compile>
+    <Compile Include="..\TrussLogicCore\Models\TrussSettings.cs">
+      <Link>Models\TrussSettings.cs</Link>
+    </Compile>
     <Compile Include="..\TrussLogicCore\Support\AdvancedINI.cs">
       <Link>Support\AdvancedINI.cs</Link>
     </Compile>
